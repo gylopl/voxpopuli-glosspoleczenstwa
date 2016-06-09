@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vox populi - Głos społeczeństwa</string>
+    <string name="app_name_separator">Vox populi \n Głos \n Społeczeństwa</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Zapisz</string>
+
+    <string name="navigation_menu_item_zaglosuj">Zagłosuj</string>
+    <string name="navigation_menu_item_wydarzenia">Wydarzenia</string>
+    <string name="navigation_menu_item_ustawienia">Ustawienia</string>
+    <string name="navigation_menu_item_informacje">Informacje</string>
+
+    <string name="tab_menu_item_trwajace">Trwające</string>
+    <string name="tab_menu_item_zakonczone">Zakończone</string>
+
+    <string name="header_card_add_date">Data dodania</string>
+    <string name="header_card_end_date">Data zakończenia</string>
+
+    <string name="title_activity_select_account">SelectAccountActivity</string>
+
+    <string name="answer_ok">OK</string>
+    <string name="answer_cancel">Anuluj</string>
+    <string name="answer_yes">Tak</string>
+    <string name="answer_no">Nie</string>
+    <string name="answer_confirm">Potwierdź</string>
+    <string name="answer_confirm_content">Czy jesteś pewny swojej odpowiedzi?</string>
+    <string name="answer_vote">Zagłosuj</string>
+    <string name="answer_your_vote_yes">Twój głos: Tak</string>
+    <string name="answer_your_vote_no">Twój głos: Nie</string>
+
+    <string name="about_version">Wersja 1.0</string>
+    <string name="about_contact">Kontakt</string>
+    <string name="about_contact_developer_name">Grzegorz Makowski</string>
+    <string name="about_contact_developer_email">makowski.grzegorz.developer@gmail.com</string>
+
+    <string name="message_vote_successfull">Głos został oddany</string>
+
+    <string name="example_header">Header</string>
+    <string name="example_text_row">To jest przykładowy tekst</string>
+    <string name="example_date">2016-12-25</string>
+
+    <string name="log_via_gplus">Zaloguj się przez konto Google</string>
+
+    <string name="error">Błąd</string>
+    <string name="error_no_internet">Internet niedostępny, sprawdź połączenie i spróbuj ponownie</string>
+    <string name="error_sign_in">Wystąpił błąd podczas logowania</string>
+
+    <string name="pb_dialog_title_please_wait">Proszę czekać</string>
+    <string name="pb_dialog_sign_in_wait">Trwa logowanie...</string>
+
+    <string name="pref_header">Ustawienia</string>
+    <string name="pref_sync_setting">Synchronizacja</string>
+    <string name="pref_sync_frequency">Częstotliwość synchronizacji</string>
+    <string name="pref_sync_frequency_summary">Ustaw częstotliwość synchronizacji</string>
+    <string name="pref_sync_frequency_4h">4h</string>
+    <string name="pref_sync_frequency_12h">12h</string>
+    <string name="pref_sync_frequency_24h">24h</string>
+    <string name="pref_saved">Zapisano</string>
+
+    <string name="example_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+        orci rutrum, ultricies nulla in, mattis orci. Nullam aliquet ante quis velit mollis, sed
+        volutpat odio maximus. Integer dictum nisi justo, nec tincidunt nisl sodales ut. Duis
+        vestibulum sollicitudin blandit. Cras tempor hendrerit nulla luctus vehicula. Quisque lorem
+        sem, blandit ac urna a, ultrices pellentesque magna. Aliquam accumsan, lectus eget accumsan
+        vehicula, ligula augue fringilla massa, ut commodo dolor lectus venenatis eros.
+        In hac habitasse platea dictumst. </string>
+    <string name="not_implemented_yet">Not implemented yet</string>
+</resources>

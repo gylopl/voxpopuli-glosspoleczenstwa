@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_drawer_menu">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_zaglosuj"
+            android:icon="@drawable/ic_action_vote_ticket_paper"
+            android:checked="true"
+            android:title="@string/navigation_menu_item_zaglosuj"/>
+        <item
+            android:id="@+id/nav_item_wydarzenia"
+            android:icon="@drawable/ic_event"
+            android:title="@string/navigation_menu_item_wydarzenia"/>
+        <item
+            android:id="@+id/nav_item_ustawienia"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/navigation_menu_item_ustawienia"/>
+        <item
+            android:id="@+id/nav_item_informacje"
+            android:icon="@drawable/ic_info_outline"
+            android:title="@string/navigation_menu_item_informacje"/>
+    </group>
+</menu>

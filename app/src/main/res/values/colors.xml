@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/red_700</color>
+    <color name="colorPrimaryDark">@color/red_900</color>
+    <color name="textColorPrimary">@color/white</color>
+    <color name="colorAccent">@color/white</color>
+    <color name="windowBackground">@color/menu_background</color>
+
+    <!-- NavigationDrawer -->
+    <color name="navigation_drawer_background">#f44336</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="menu_background">#b71c1c</color>
+    <color name="menu_background_selected">#a11919</color>
+    <color name="material_drawer_selected">#2196F3</color>
+
+    <!-- red -->
+    <color name="red_500">#f44336</color>
+    <color name="red_700">#d32f2f</color>
+    <color name="red_800">#c62828</color>
+    <color name="red_800_alpha">#66c62828</color>
+    <color name="red_900">#860111</color>
+
+    <color name="green">#ffae57</color>
+    <color name="white">#ffffff</color>
+    <color name="white_alpha">#ccffffff</color>
+
+    <color name="about_separator_color">#e1e1e1</color>
+</resources>

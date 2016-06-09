@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="create_table_cards">
+        CREATE TABLE IF NOT EXISTS cards (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT,
+            content TEXT,
+            addDate INTEGER,
+            endDate INTEGER
+        );
+    </string>
+
+    <string name="drop_table_cards">
+        DROP TABLE IF EXISTS cards;
+    </string>
+
+    <string name="insert_card">
+        INSERT INTO cards (title, content, addDate, endDate) VALUES (?, ?, ?, ?);
+    </string>
+
+    <string name="select_all_cards">
+        SELECT
+            *
+        FROM cards;
+    </string>
+
+    <string name="delete_all_cards">
+        DELETE FROM cards;
+    </string>
+
+
+    <string name="create_table_votes">
+        CREATE TABLE IF NOT EXISTS votes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            idCardVoting INTEGER,
+            email TEXT,
+            answer INTEGER
+        );
+    </string>
+
+    <string name="drop_table_votes">
+        DROP TABLE IF EXISTS votes;
+    </string>
+
+    <string name="insert_vote">
+        INSERT INTO votes (idCardVoting, email, answer) VALUES (?, ?, ?);
+    </string>
+
+    <string name="select_all_votes">
+        SELECT
+            *
+        FROM votes;
+    </string>
+
+    <string name="select_votes_by_card_voting_id">
+        SELECT
+            *
+        FROM votes WHERE idCardVoting = ?;
+    </string>
+
+    <string name="delete_all_votes">
+        DELETE FROM votes;
+    </string>
+
+</resources>

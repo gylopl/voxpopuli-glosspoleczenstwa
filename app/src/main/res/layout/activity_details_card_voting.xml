@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="makdroid.voxpopuli.ui.activities.DetailsCardVotingActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/activity_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/orzelBackground"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/transparentorzel"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>
