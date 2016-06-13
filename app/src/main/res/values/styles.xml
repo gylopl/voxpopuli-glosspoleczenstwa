@@ -9,7 +9,6 @@
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:windowBackground">@color/windowBackground</item>
         <item name="colorButtonNormal">@color/red_500</item>
-        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
     </style>
 
     <style name="TextViewTitle">
